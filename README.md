@@ -6,15 +6,17 @@ This project focuses on wrangling the WeRateDogs Twitter data to generate meanin
 
 The data wrangling process consists of three main parts:
 
-Data Gathering:
+## Data Gathering:
 
 Downloading the WeRateDogs Twitter archive data (twitter_archive_enhanced.csv)
 Obtaining the tweet image predictions (image_predictions.tsv) using the Requests library
 Querying additional data through the Twitter API (tweet_json.txt) with the Tweepy library
-Data Assessment:
+## Data Assessment:
 
-Identifying duplicates, missing values, and invalid entries during the data assessment phase
-Data Cleaning:
+Identifying duplicates, missing values, and invalid entries during the data assessment phase.
+
+## Data Cleaning:
+
 Based on considerations of data completeness, validity, accuracy, and consistency, the following quality and tidiness issues were addressed:
 
 In the 'archive_df' table:
